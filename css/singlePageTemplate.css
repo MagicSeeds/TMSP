@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: 'Source Sans Pro', sans-serif;
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -22,10 +22,8 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	/*color u 52bad5*/
 	background-color: #30aa2e;
-	/*color u 2c9ab7*/
-	border-bottom: 1px solid #279625;
+	border-bottom: 1px solid #2C9AB7;
 }
 .logo {
 	color: #fff;
@@ -110,9 +108,6 @@ ul li:hover a {
 	background-color: #FFFFFF;
 	margin-top: 0px;
 }
-#partners {
-	text-align: center;
-}
 /* Stats Gallery */
 .stats {
 	color: #717070;
@@ -134,8 +129,7 @@ ul li:hover a {
 	width: 25%;
 	text-align: center;
 	float: left;
-	/*u 35*/
-	margin-top: 25px;
+	margin-top: 35px;
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
@@ -154,7 +148,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url('http://goodereader.com/blog/uploads/images/Diverse_kids_reading-2MB.jpg');
+	background-image: url(../images/parallax.png);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -209,7 +203,7 @@ footer .footer_column p {
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
-	text-align: center;
+	text-align: justify;
 	line-height: 25px;
 	font-weight: lighter;
 	margin-left: 20px;
@@ -337,7 +331,7 @@ nav ul li {
 	text-align: center;
 }
 .banner {
-	background-color: #279625;
+	background-color: #2D9AB7;
 	background-image: none;
 }
 .tagline {
@@ -372,10 +366,7 @@ nav ul li {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #30aa2e;
-}
-.logo {
-	display: none;
+	background: #52bad5;
 }
 header nav ul {
 	padding: 0px;
@@ -463,7 +454,7 @@ nav ul li {
 }
 
 /* Small Desktops */
-@media ( min-width : 768px ) and (max-width : 1652px ){
+@media (min-width: 768px) and (max-width: 1096px) {
 .text_column {
 	width: 100%;
 }
@@ -485,8 +476,4 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
-}
-#about-title {
-	text-align: center;
-}#partners {
 }
