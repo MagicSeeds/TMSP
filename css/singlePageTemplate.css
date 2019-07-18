@@ -148,14 +148,14 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
+	background-image: url("../images/reading-baby4.jpg");
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 .parallax {
-	color: #FFFFFF;
+	color: #FFF;
 	text-align: right;
 	padding-right: 100px;
 	padding-top: 110px;
@@ -163,7 +163,7 @@ ul li:hover a {
 	margin-top: 0px;
 }
 .parallax_description {
-	color: #FFFFFF;
+	color: #FFF;
 	text-align: right;
 	padding-right: 100px;
 	width: 30%;
@@ -179,6 +179,7 @@ ul li:hover a {
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
+	width: 100%;
 }
 .footer_column {
 	width: 100%;
@@ -203,7 +204,7 @@ footer .footer_column p {
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
-	text-align: justify;
+	text-align: center;
 	line-height: 25px;
 	font-weight: lighter;
 	margin-left: 20px;
