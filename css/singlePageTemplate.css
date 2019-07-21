@@ -147,7 +147,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
+	background-color: #30aa2e;
 	background-image: url("../images/reading-baby4.jpg");
 	height: 400px;
 	background-attachment: fixed;
@@ -367,7 +367,7 @@ nav ul li {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #52bad5;
+	background: #30aa2e;
 }
 header nav ul {
 	padding: 0px;
