@@ -131,6 +131,9 @@
 	margin-bottom: 15px;
 	color: #B3B3B3;
 }
+.christmas {
+	padding-left: 5%;
+}
 .right_article {
 	width: 40%;
 	float: left;
@@ -476,4 +479,6 @@ body {
 .rectangle {
 }
 .thumnail {
+}
+.christmas {
 }
