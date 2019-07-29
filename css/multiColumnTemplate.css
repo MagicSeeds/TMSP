@@ -1,7 +1,6 @@
 @charset "UTF-8";
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -11,7 +10,10 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
-  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+}
+
+.mySlides2 {
+	display: none;
 }
 
 /* Next & previous buttons */
@@ -43,27 +45,40 @@
 
 /* Caption text */
 .text {
-  color: #3cfad7;
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+	font-family: 'Roboto';
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #000;
+  color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+	font-family: 'Roboto';
 }
 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot2 {
+	cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -97,7 +112,14 @@
 
 
 
-
+#slideshow {
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	clear: both;
+	overflow: auto;
+}
 
 
 
@@ -568,6 +590,7 @@ body {
 
 @media (min-width: 1001px) {
 }
+
 .thumbnail {
 	width: 100px;
 	border-radius: 200px;
