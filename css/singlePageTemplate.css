@@ -81,6 +81,11 @@ ul li:hover a {
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+@media (max-width: 600px) {
+	.hero {
+		background-image: url("../images/Logo Edit.png")
+	}
+}
 .light {
 	font-weight: bold;
 	color: #717070;
@@ -178,6 +183,11 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+@media (max-width: 600px) {
+	.banner h2, .banner p {
+		color: black;
+	}
 }
 /* More info */
 footer {
@@ -352,7 +362,7 @@ nav ul li {
 }
 
 /* Small Tablets */
-@media (min-width: 321px)and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 767px) {
 .logo {
 	width: 100%;
 	text-align: center;

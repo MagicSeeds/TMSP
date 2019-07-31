@@ -395,6 +395,13 @@ body {
 	margin-left: 0px;
 	width: 100%;
 }
+	
+@media (max-width: 540px) {
+	#donate {
+		padding-left: 0px;
+	}
+}
+	
 .container .secondary_header ul {
 	margin-top: 0px;
 	margin-right: 0px;
