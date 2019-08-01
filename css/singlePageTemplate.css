@@ -10,6 +10,15 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+
+/* Tests */
+@media screen and (max-width: 600px) {
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 /* Container */
 .container {
 	width: 90%;

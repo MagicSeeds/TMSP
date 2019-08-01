@@ -21,15 +21,18 @@
 <!-- Main Container -->
 <div class="container"> 
   <!-- Navigation -->
-  <header> <a href="">
+  <header> <a href="" class="disapper">
     <h4 class="logo">TMSP</h4>
   </a>
     <nav>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="donate.html">DONATE</a></li>
-        <li> <a href="contact.html">CONTACT</a></li>
+        <li class="disapper"><a href="#">HOME</a></li>
+        <li class="disapper"><a href="about.html">ABOUT</a></li>
+        <li class="disapper"><a href="donate.html">DONATE</a></li>
+        <li class="disapper"><a href="contact.html">CONTACT</a></li>
+		<li id="topnav" style="display: none;"><a href="javascript:void(0);" onclick="myFunction()">
+    		<img src="images/hamburger.png" height="15px;" width="auto">
+		</a></li>
       </ul>
     </nav>
   </header>
@@ -94,4 +97,5 @@
 </div>
 <!-- Main Container Ends -->
 </body>
+<script src="js/nav.js"></script>
 </html>
