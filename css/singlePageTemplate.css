@@ -186,7 +186,7 @@ ul li:hover a {
 }
 @media (max-width: 600px) {
 	.banner h2, .banner p {
-		color: black;
+		color: red;
 	}
 }
 /* More info */
