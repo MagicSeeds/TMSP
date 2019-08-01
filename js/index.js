@@ -1,7 +1,7 @@
 var slideIndex = 0;
 var extra = "";
 showSlides();
-if(window.innerWidth < 1200) {
+if(window.innerWidth < 1700) {
 	document.getElementById('slideshow').style.display = "none";
 	document.getElementById('slideshow2').style.display = "block";
 	extra = "2";

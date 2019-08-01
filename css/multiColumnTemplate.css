@@ -388,18 +388,24 @@ body {
 	margin-left: 0px;
 }
 
+@media (min-width: 540px) {
+	#donate {
+		padding-left: 36px;
+	}
+}
+
+@media (max-width: 540px) {
+	#donate {
+		padding-left: 0px;
+	}
+}
+
 @media (max-width: 320px) {
 .secondary_header ul li {
 	float: none;
 	margin-top: 28px;
 	margin-left: 0px;
 	width: 100%;
-}
-	
-@media (max-width: 540px) {
-	#donate {
-		padding-left: 0px;
-	}
 }
 	
 .container .secondary_header ul {
