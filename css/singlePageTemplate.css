@@ -284,6 +284,12 @@ footer {
 	display: none;
 }
 
+@media (max-width: 600px) {
+	.banner {
+		background-image: url("../images/reading-baby3.jpg");
+	}
+}
+
 /* Mobile */
 @media (max-width: 320px) {
 .logo {
