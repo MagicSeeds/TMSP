@@ -115,7 +115,7 @@ ul li:hover a {
 }
 /* About Section */
 .text_column {
-	width: 29%;
+	width: 30.2%;
 	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
@@ -564,4 +564,8 @@ nav ul li {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+.extra {
+	padding-left: 25px;
+	padding-right: 25px;
 }
