@@ -653,3 +653,22 @@ body {
 }
 .christmas {
 }
+#entryA {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: coral;
+	border-radius: 4px;
+	padding: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+#entryA:hover {
+	cursor: pointer;
+	background-color: #ff5d21;
+}
+#descrip {
+	text-align: center;
+	font-family: "Roboto";
+}
