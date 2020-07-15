@@ -8,28 +8,28 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-//TimeMe.initialize({
-//    currentPageName: "home-page",
-//    idleTimeoutInSeconds: 30
-//});
-//TimeMe.startTimer("home-page");
-//TimeMe.callAfterTimeElapsedInSeconds(16, function(){
-//	modal.style.display = "block";
-//});
+TimeMe.initialize({
+    currentPageName: "home-page",
+    idleTimeoutInSeconds: 30
+});
+TimeMe.startTimer("home-page");
+TimeMe.callAfterTimeElapsedInSeconds(16, function(){
+	modal.style.display = "block";
+});
 var disappear = document.getElementsByClassName("disapper");
 if(window.innerWidth < 601) {
-	for(var i = 0; i < 7; i++) {
+	for(var i = 0; i < 8; i++) {
 		disappear[i].style.display = "none";
 	}
 	document.getElementById('topnav').style.display = "block";
 }
 function myFunction() {
 	if(disappear[2].style.display == "block") {
-		for(var i = 0; i < 7; i++) {
+		for(var i = 0; i < 8; i++) {
 			disappear[i].style.display = "none";
 		}
 	} else {
-		for(var i = 1; i < 7; i++) {
+		for(var i = 1; i < 8; i++) {
 			disappear[i].style.display = "block";
 		}
 	}

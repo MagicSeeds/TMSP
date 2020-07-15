@@ -569,3 +569,6 @@ nav ul li {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+.hoverThis:hover {
+	cursor: pointer;
+}
