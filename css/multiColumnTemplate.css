@@ -7,10 +7,18 @@
   margin: auto;
 }
 
-#milesT {
+.milesT {
+	width: 49%;
+	height: auto;
+}
+.milesT2 {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
+	height: auto;
+}
+.milesT3 {
+	width: 33%;
 	height: auto;
 }
 
