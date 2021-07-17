@@ -8,14 +8,14 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-//TimeMe.initialize({
-//    currentPageName: "home-page",
-//    idleTimeoutInSeconds: 30
-//});
-//TimeMe.startTimer("home-page");
-//TimeMe.callAfterTimeElapsedInSeconds(16, function(){
-//	modal.style.display = "block";
-//});
+TimeMe.initialize({
+    currentPageName: "home-page",
+    idleTimeoutInSeconds: 30
+});
+TimeMe.startTimer("home-page");
+TimeMe.callAfterTimeElapsedInSeconds(16, function(){
+	modal.style.display = "block";
+});
 var disappear = document.getElementsByClassName("disapper");
 if(window.innerWidth < 601) {
 	for(var i = 0; i < 8; i++) {
